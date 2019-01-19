@@ -1,0 +1,58 @@
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="argopstem.org" resolutions="1x" timestamp="1547872553265">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-master.css" crc="4150782301" ref="index:about:donate:blog:about-copy:events"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index:about:donate:blog:about-copy:events"/>
+    <file name="index.css" crc="25678525" ref="index"/>
+    <file name="nomq_index.css" crc="3893906751" ref="index"/>
+    <file name="about.css" crc="3888860453" ref="about"/>
+    <file name="nomq_about.css" crc="97249896" ref="about"/>
+    <file name="donate.css" crc="4193547256" ref="donate"/>
+    <file name="nomq_donate.css" crc="4065573589" ref="donate"/>
+    <file name="blog.css" crc="4114818669" ref="blog"/>
+    <file name="nomq_blog.css" crc="404753044" ref="blog"/>
+    <file name="about-copy.css" crc="4046027720" ref="about-copy"/>
+    <file name="nomq_about-copy.css" crc="4106061972" ref="about-copy"/>
+    <file name="events.css" crc="185963507" ref="events"/>
+    <file name="nomq_events.css" crc="4129399614" ref="events"/>
+  </folder>
+  <folder name="fonts">
+    <file name="futura bold.woff" crc="54164926"/>
+    <file name="futura bold.eot" crc="3911468388"/>
+    <file name="futura bold.svg" crc="287524906"/>
+    <file name="oratorstd.woff" crc="3759803969"/>
+    <file name="oratorstd.eot" crc="3780735155"/>
+    <file name="oratorstd.svg" crc="523729240"/>
+  </folder>
+  <folder name="assets">
+    <file name="donate.webloc" crc="4249254945" seo="true" mt="1547797812000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:blog:events:donate:about:about-copy"/>
+    <file name="museutils.js" crc="17924269" ref="index:blog:events:donate:about:about-copy"/>
+    <file name="whatinput.js" crc="86476730" ref="index:blog:events:donate:about:about-copy"/>
+    <file name="museconfig.js" crc="144853533" ref="index:blog:events:donate:about:about-copy"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:blog:events:donate:about:about-copy"/>
+    <file name="jquery.museresponsive.js" crc="4267800278" ref="index:blog:events:donate:about:about-copy"/>
+    <file name="require.js" crc="3861931657" ref="index:blog:events:donate:about:about-copy"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="313579650" ref="index"/>
+    <file name="u736-4.png" crc="486337017" ref="index"/>
+    <file name="u739-4.png" crc="3927797760" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:blog:events:donate:about:about-copy"/>
+    <file name="u739-42.png" crc="3850365040" ref="index"/>
+    <file name="u736-42.png" crc="4266186360" ref="index"/>
+    <file name="u739-43.png" crc="140148174" ref="index"/>
+    <file name="u736-43.png" crc="174171807" ref="index"/>
+    <file name="u3239-4.png" crc="4085272243" ref="blog"/>
+    <file name="u3239-42.png" crc="4173038454" ref="blog"/>
+    <file name="u3239-43.png" crc="4173038454" ref="blog"/>
+  </folder>
+  <file name="index.html" crc="179408331" seo="true" mt="1547798697173" redirect="true"/>
+  <file name="blog.html" crc="4185120945" seo="true" mt="1547863181173" redirect="true"/>
+  <file name="events.html" crc="425191098" seo="true" mt="1547798697173" redirect="true"/>
+  <file name="donate.html" crc="3971982645" seo="true" mt="1547798697173" redirect="true"/>
+  <file name="about.html" crc="155605735" seo="true" mt="1547862492433" redirect="true"/>
+  <file name="about-copy.html" crc="4037693938" seo="true" mt="1547863144626" redirect="true"/>
+</manifest>
