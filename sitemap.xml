@@ -2,25 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://argopstem.org/index.html</loc>
-    <lastmod>2019-01-20</lastmod>
+    <lastmod>2019-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://argopstem.org/events.html</loc>
-    <lastmod>2019-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://argopstem.org/blog.html</loc>
-    <lastmod>2019-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://argopstem.org/argolaunches.html</loc>
-    <lastmod>2019-01-20</lastmod>
+    <lastmod>2019-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,8 +19,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://argopstem.org/blog.html</loc>
+    <lastmod>2019-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://argopstem.org/argolaunches.html</loc>
+    <lastmod>2019-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://argopstem.org/contact.html</loc>
-    <lastmod>2019-01-20</lastmod>
+    <lastmod>2019-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://argopstem.org/assets/comp-1_4-(converted)2.mov</loc>
+    <lastmod>2019-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
