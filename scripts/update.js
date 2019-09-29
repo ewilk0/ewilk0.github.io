@@ -1,3 +1,7 @@
+function everySecond(){
+    setInterval(newPrice, 1000);
+}
+
 function newPrice(){
     var xmlhttp = new XMLHttpRequest();
     var url = "https://api.coindesk.com/v1/bpi/currentprice.json";
@@ -13,4 +17,5 @@ function newPrice(){
       var time = "<b>Last Updated : " + json["time"]["updated"] + "</b>";
       var usdValue = json["bpi"]["USD"]["rate"];
       document.getElementById("u412-4").textContent=usdValue;}}
-newPrice();
+
+everySecond();
