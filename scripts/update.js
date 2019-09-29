@@ -15,6 +15,7 @@ function newPrice(){
     xmlhttp.send();
     function parseJson(json) {
       var usdValue = json["price"];
+      console.log(usdValue);
       document.getElementById("u412-4").textContent=usdValue;}}
 
 everySecond();
