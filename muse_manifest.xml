@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1569794167256">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1569794498102">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="4003806049" ref="index:bitcoin-101:trades--ethan-wilk:bitcoin-game-changer-or-fad:about--ethan-wilk"/>
@@ -46,10 +46,11 @@
     </file>
     <file name="u230-4.png" crc="4091370676" ref="bitcoin-game-changer-or-fad"/>
     <file name="u303-4.png" crc="120103459" ref="bitcoin-101"/>
+    <file name="favicon.ico" crc="3850212169" ref="index"/>
   </folder>
-  <file name="index.html" crc="113433342" seo="true" mt="1569794152133" redirect="true"/>
-  <file name="trades--ethan-wilk.html" crc="3758126876" seo="true" mt="1569792534194" redirect="true"/>
-  <file name="about--ethan-wilk.html" crc="384466745" seo="true" mt="1569792534194" redirect="true"/>
-  <file name="bitcoin-game-changer-or-fad.html" crc="3828374596" seo="true" mt="1569792534194" redirect="true"/>
-  <file name="bitcoin-101.html" crc="426134650" seo="true" mt="1569792534194" redirect="true"/>
+  <file name="index.html" crc="3880591874" seo="true" mt="1569794488728" redirect="true"/>
+  <file name="trades--ethan-wilk.html" crc="331249738" seo="true" mt="1569794488728" redirect="true"/>
+  <file name="about--ethan-wilk.html" crc="256356267" seo="true" mt="1569794488728" redirect="true"/>
+  <file name="bitcoin-game-changer-or-fad.html" crc="4112550329" seo="true" mt="1569794488728" redirect="true"/>
+  <file name="bitcoin-101.html" crc="342138303" seo="true" mt="1569794488728" redirect="true"/>
 </manifest>
