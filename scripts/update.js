@@ -1,4 +1,4 @@
-function test(){
+function newPrice(){
     var xmlhttp = new XMLHttpRequest();
     var url = "https://api.coindesk.com/v1/bpi/currentprice.json";
     xmlhttp.onreadystatechange = function() {
@@ -11,9 +11,6 @@ function test(){
     xmlhttp.send();
     function parseJson(json) {
       var time = "<b>Last Updated : " + json["time"]["updated"] + "</b>";
-      var usdValue = "1 BTC equals to $" + json["bpi"]["USD"]["rate"];
-      var gbpValue = "1 BTC equals to &pound;" + json["bpi"]["GBP"]["rate"];
-      var euroValue = "1 BTC equals to &euro;" + json["bpi"]["EUR"]["rate"];
-      console.log(usdValue);
+      var usdValue = json["bpi"]["USD"]["rate"];
       document.getElementById("u412-4").textContent=usdValue;}}
-test();
+newPrice();
