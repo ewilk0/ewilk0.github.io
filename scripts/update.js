@@ -4,7 +4,7 @@ function everySecond(){
 
 function newPrice(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://api.coindesk.com/v1/bpi/currentprice.json";
+    var url = "https://api.binance.com/api/v1/ticker/price?symbol=BTCUSDT";
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4  &&  this.status == 200) {
         var json = JSON.parse(this.responseText);
@@ -14,8 +14,7 @@ function newPrice(){
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
     function parseJson(json) {
-      var time = "<b>Last Updated : " + json["time"]["updated"] + "</b>";
-      var usdValue = json["bpi"]["USD"]["rate"];
+      var usdValue = json["price"];
       document.getElementById("u412-4").textContent=usdValue;}}
 
 everySecond();
