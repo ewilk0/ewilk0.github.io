@@ -19,3 +19,4 @@ function newPrice(){
       document.getElementById("u412-4").textContent=usdValue;}}
 
 everySecond();
+newPrice();
