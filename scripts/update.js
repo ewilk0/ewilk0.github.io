@@ -16,3 +16,4 @@ function test(){
       var euroValue = "1 BTC equals to &euro;" + json["bpi"]["EUR"]["rate"];
       console.log(usdValue);
       document.getElementById("u412-4").textContent=usdValue;}}
+test();
