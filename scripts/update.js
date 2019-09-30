@@ -4,7 +4,7 @@ function everySecond(){
 
 function newPrice(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://www.bitmex.com/api/v1/trade?symbol=XBT&count=1&reverse=true";
+    var url = "https://api.coinbase.com/v2/prices/BTC_USD/spot";
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4  &&  this.status == 200) {
         var json = JSON.parse(this.responseText);
@@ -14,7 +14,7 @@ function newPrice(){
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
     function parseJson(json) {
-      var usdValue = json[0]["price"];
+      var usdValue = json["data"]["amount"];
       console.log(usdValue);
       document.getElementById("u412-4").textContent=usdValue;}}
 
