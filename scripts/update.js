@@ -11,7 +11,6 @@ function updatePrice(){
     if(finalPrice > lastPrice){
       document.getElementById("u412-4").style.color = 'green';
       document.getElementById("u412-4").style.fontFamily = 'Courier';
-      document.getElementById("u412-4").style.fontWeight = 'bold';
     }
     else{
       document.getElementById("u412-4").style.color = 'red';
