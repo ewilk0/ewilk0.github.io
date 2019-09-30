@@ -9,11 +9,11 @@ function updatePrice(){
     var finalPrice = newPrice.toFixed(2);
     if(newPrice > lastPrice){
       document.getElementById("u412-5").style.color = 'green';
-      document.getElementById("u412-5").textContent=finalPrice + " ⬆";
+      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬆";
     }
     else {
       document.getElementById("u412-5").style.color = 'red';
-      document.getElementById("u412-5").textContent=finalPrice + " ⬇";
+      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬇";
     }
     lastPrice = newPrice;
   };
