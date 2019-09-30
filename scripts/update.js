@@ -3,8 +3,8 @@ function updatePrice(){
 
   ws.onmessage = function(msg){
     var jsonObject = JSON.parse(msg.data);
-    var newFloat = parseFloat(msg.c);
-    var finalPrice = Number((newFloat).toFixed(1));
+    var newFloat = parseFloat(jsonObject.c);
+    var finalPrice = Number((newFloat).toFixed(2));
     document.getElementById("u412-4").textContent=finalPrice;
   };
 }
