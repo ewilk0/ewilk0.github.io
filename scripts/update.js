@@ -11,15 +11,13 @@ function updatePrice(){
       document.getElementById("u412-4").style.color = 'green';
       document.getElementById("u412-4").style.fontFamily = 'Courier';
       document.getElementById("u412-4").textContent=finalPrice + " ⬆";
-      console.log(document.getElementById("u412-4").style.fontSize);
-      document.getElementById("u412-4").style.fontSize = '24';
+      document.getElementById("u412-4").style.fontSize = 'large';
     }
     else {
       document.getElementById("u412-4").style.color = 'red';
       document.getElementById("u412-4").style.fontFamily = 'Courier';
       document.getElementById("u412-4").textContent=finalPrice + " ⬇";
-      document.getElementById("u412-4").style.fontSize = '24';
-      console.log(document.getElementById("u412-4").style.fontSize);
+      document.getElementById("u412-4").style.fontSize = 'large';
     }
     lastPrice = finalPrice;
   };
