@@ -11,8 +11,8 @@ function newPrice(){
         parseJson(json);
       }		
     };
-    xmlhttp.setRequestHeader("Origin", 'api.binance.com');
     xmlhttp.open("GET", url, true);
+    xmlhttp.setRequestHeader("Origin", 'api.binance.com');
     xmlhttp.send();
     function parseJson(json) {
       var usdValue = json["price"];
