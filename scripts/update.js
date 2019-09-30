@@ -8,3 +8,5 @@ function updatePrice(){
     document.getElementById("u412-4").textContent=finalPrice;
   };
 }
+
+updatePrice();
