@@ -3,7 +3,7 @@ function updatePrice(){
 
     ws.onmessage = function(msg) {
       var newFloat = parseFloat(msg["c"])
-      var finalPrice = Math.round(num * 100) / 100
+      var finalPrice = Number((newFloat).toFixed(2));
       document.getElementById("u412-4").textContent=finalPrice;
     };
 }
