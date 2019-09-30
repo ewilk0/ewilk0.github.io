@@ -5,6 +5,6 @@ function updatePrice(){
     var jsonObject = parseJSON(msg.data);
     var newFloat = parseFloat(msg.c);
     var finalPrice = Number((newFloat).toFixed(1));
-    document.getElementById("id412-4").textContent=finalPrice;
+    document.getElementById("u412-4").textContent=finalPrice;
   };
 }
