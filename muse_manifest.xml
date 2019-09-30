@@ -1,32 +1,37 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1569818073577">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1569818156873">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="327103893" ref="bitcoin-101:index:bitcoin-game-changer-or-fad:about:trades"/>
+    <file name="master_a-master.css" crc="327103893" ref="bitcoin-101:trades:index:bitcoin-game-changer-or-fad:about"/>
     <file name="bitcoin-101.css" crc="523680788" ref="bitcoin-101"/>
+    <file name="trades.css" crc="180832419" ref="trades"/>
     <file name="index.css" crc="3887196397" ref="index"/>
     <file name="bitcoin-game-changer-or-fad.css" crc="377733394" ref="bitcoin-game-changer-or-fad"/>
     <file name="about.css" crc="4226165312" ref="about"/>
-    <file name="trades.css" crc="180832419" ref="trades"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="museutils.js" crc="17924269" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="whatinput.js" crc="86476730" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="museconfig.js" crc="144853533" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="jquery.watch.js" crc="4240030481" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="require.js" crc="3861931657" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="museutils.js" crc="17924269" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="whatinput.js" crc="86476730" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="museconfig.js" crc="144853533" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="require.js" crc="3861931657" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3850212169" ref="index"/>
-    <file name="u94-4.png" crc="3901583933" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="u121-4.png" crc="3884576892" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="u106-4.png" crc="4106740009" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="u115-4.png" crc="287864067" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:trades"/>
-    <file name="u329-4.png" crc="4024223186" ref="index"/>
+    <file name="u409-4.png" crc="448005610" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="u94-4.png" crc="3901583933" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="u412-7.png" crc="4188340294" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="u121-4.png" crc="3884576892" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="u106-4.png" crc="4106740009" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="u115-4.png" crc="287864067" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
     <file name="systems imagination (1).png" crc="372408419" seo="true" ref="index:bitcoin-101">
       <caption webpage="index" alt=""/>
       <caption webpage="bitcoin-101" alt=""/>
     </file>
+    <file name="u329-4.png" crc="4024223186" ref="index"/>
+    <file name="u457-4.png" crc="3847149445" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="u451-4.png" crc="3959569092" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
+    <file name="u463-4.png" crc="3794052262" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
     <file name="imageedit_2_6351058747-crop-u169.png" crc="4262448816" seo="true" ref="about">
       <caption webpage="about" alt=""/>
     </file>
@@ -35,15 +40,10 @@
     </file>
     <file name="u230-4.png" crc="4091370676" ref="bitcoin-game-changer-or-fad"/>
     <file name="u303-4.png" crc="120103459" ref="bitcoin-101"/>
-    <file name="u409-4.png" crc="448005610" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
-    <file name="u412-7.png" crc="4188340294" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
-    <file name="u457-4.png" crc="3847149445" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
-    <file name="u451-4.png" crc="3959569092" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
-    <file name="u463-4.png" crc="3794052262" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101"/>
   </folder>
   <file name="index.html" crc="74098246" seo="true" mt="1569818063290" redirect="true"/>
+  <file name="trades.html" crc="4087015033" seo="true" mt="1569818063290" redirect="true"/>
   <file name="about.html" crc="3957702183" seo="true" mt="1569818063290" redirect="true"/>
   <file name="bitcoin-game-changer-or-fad.html" crc="520851529" seo="true" mt="1569818063290" redirect="true"/>
   <file name="bitcoin-101.html" crc="4271420284" seo="true" mt="1569818063290" redirect="true"/>
-  <file name="trades.html" crc="4087015033" seo="true" mt="1569818063290" redirect="true"/>
 </manifest>
