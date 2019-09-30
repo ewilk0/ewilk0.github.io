@@ -3,6 +3,7 @@ function updatePrice(){
 
     ws.onmessage = function(msg) {
       var newFloat = parseFloat(msg["c"])
+      console.log(newFloat)
       var finalPrice = Number((newFloat).toFixed(2));
       document.getElementById("u412-4").textContent=finalPrice;
     };
