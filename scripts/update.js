@@ -7,13 +7,14 @@ function updatePrice(){
     var jsonObject = JSON.parse(msg.data);
     var newFloat = parseFloat(jsonObject.c);
     var finalPrice = Number((newFloat).toFixed(2));
-    document.getElementById("u412-4").textContent=finalPrice;
     if(finalPrice > lastPrice){
       document.getElementById("u412-4").style.color = 'green';
       document.getElementById("u412-4").style.fontFamily = 'Courier';
+      document.getElementById("u412-4").textContent=finalPrice + " ▲";
     }
     else{
       document.getElementById("u412-4").style.color = 'red';
+      document.getElementById("u412-4").textContent=finalPrice + " ▼";
     }
     lastPrice = finalPrice;
   };
