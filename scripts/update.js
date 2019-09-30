@@ -4,7 +4,7 @@ function everySecond(){
 
 function newPrice(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://api.binance.com/api/v1/ticker/price?symbol=BTCUSDT";
+    var url = "https://api.binance.com/api/v1/ticker/price?symbol=BTCUSDT:433";
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4  &&  this.status == 200) {
         var json = JSON.parse(this.responseText);
