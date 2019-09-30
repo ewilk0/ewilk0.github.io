@@ -5,9 +5,9 @@ function updatePrice(){
 
   ws.onmessage = function(msg){
     var jsonObject = JSON.parse(msg.data);
-    var newPrice = jsonObject.c;
+    var newPrice = parseFloat(jsonObject.c);
     var finalPrice = newPrice.toFixed(2);
-    if(finalPrice > lastPrice){
+    if(newPrice > lastPrice){
       document.getElementById("u412-4").style.color = 'green';
       document.getElementById("u412-4").style.fontFamily = 'Courier';
       document.getElementById("u412-4").textContent=finalPrice + " ⬆";
@@ -19,7 +19,7 @@ function updatePrice(){
       document.getElementById("u412-4").textContent=finalPrice + " ⬇";
       document.getElementById("u412-4").style.fontSize = 'large';
     }
-    lastPrice = finalPrice;
+    lastPrice = newPrice;
   };
 }
 
