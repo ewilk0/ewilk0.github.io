@@ -1,5 +1,5 @@
 function updatePrice(){
-  var ws = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@trade');
+  var ws = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@miniTicker');
 
   ws.onmessage = function(msg){
     var jsonObject = parseJSON(msg.data);
