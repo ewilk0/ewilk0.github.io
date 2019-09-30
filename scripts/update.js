@@ -14,6 +14,7 @@ function updatePrice(){
     }
     else{
       document.getElementById("u412-4").style.color = 'red';
+      document.getElementById("u412-4").style.fontFamily = 'Courier';
       document.getElementById("u412-4").textContent=finalPrice + " ▼";
     }
     lastPrice = finalPrice;
