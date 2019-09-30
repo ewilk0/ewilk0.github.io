@@ -8,16 +8,16 @@ function updatePrice(){
     var newPrice = parseFloat(jsonObject.c);
     var finalPrice = newPrice.toFixed(2);
     if(newPrice > lastPrice){
-      document.getElementById("u412-4").style.color = 'green';
-      document.getElementById("u412-4").style.fontFamily = 'Courier';
-      document.getElementById("u412-4").textContent=finalPrice + " ⬆";
-      document.getElementById("u412-4").style.fontSize = 'large';
+      document.getElementById("u412-5").style.color = 'green';
+      document.getElementById("u412-5").style.fontFamily = 'Courier';
+      document.getElementById("u412-5").textContent=finalPrice + " ⬆";
+      document.getElementById("u412-5").style.fontSize = 'large';
     }
     else {
-      document.getElementById("u412-4").style.color = 'red';
-      document.getElementById("u412-4").style.fontFamily = 'Courier';
-      document.getElementById("u412-4").textContent=finalPrice + " ⬇";
-      document.getElementById("u412-4").style.fontSize = 'large';
+      document.getElementById("u412-5").style.color = 'red';
+      document.getElementById("u412-5").style.fontFamily = 'Courier';
+      document.getElementById("u412-5").textContent=finalPrice + " ⬇";
+      document.getElementById("u412-5").style.fontSize = 'large';
     }
     lastPrice = newPrice;
   };
