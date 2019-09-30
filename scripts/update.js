@@ -11,11 +11,13 @@ function updatePrice(){
       document.getElementById("u412-4").style.color = 'green';
       document.getElementById("u412-4").style.fontFamily = 'Courier';
       document.getElementById("u412-4").textContent=finalPrice + " ⬆";
+      document.getElementById("u412-4").style.fontSize = '18';
     }
     else {
       document.getElementById("u412-4").style.color = 'red';
       document.getElementById("u412-4").style.fontFamily = 'Courier';
       document.getElementById("u412-4").textContent=finalPrice + " ⬇";
+      document.getElementById("u412-4").style.fontSize = '18';
     }
     lastPrice = finalPrice;
   };
