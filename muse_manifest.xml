@@ -1,12 +1,12 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1569995924255">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1569996838287">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="250731839" ref="bitcoin-101:trades:index:bitcoin-game-changer-or-fad:about"/>
-    <file name="bitcoin-101.css" crc="158084776" ref="bitcoin-101"/>
-    <file name="trades.css" crc="472349259" ref="trades"/>
+    <file name="master_a-master.css" crc="250731839" ref="index:trades:bitcoin-game-changer-or-fad:about:bitcoin-101"/>
     <file name="index.css" crc="42991732" ref="index"/>
+    <file name="trades.css" crc="472349259" ref="trades"/>
     <file name="bitcoin-game-changer-or-fad.css" crc="3859404108" ref="bitcoin-game-changer-or-fad"/>
     <file name="about.css" crc="4160739437" ref="about"/>
+    <file name="bitcoin-101.css" crc="158084776" ref="bitcoin-101"/>
   </folder>
   <folder name="fonts">
     <file name="avenir-lt-85-heavy.woff" crc="4255242917"/>
@@ -29,14 +29,14 @@
       <caption webpage="bitcoin-101" alt=""/>
     </file>
     <file name="u329-4.png" crc="4274658833" ref="index"/>
+    <file name="imageedit_24_3696117520-crop-u169.jpg" crc="3799173141" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
     <file name="systems imagination.jpg" crc="4062849914" seo="true" ref="bitcoin-game-changer-or-fad">
       <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
     </file>
     <file name="u230-4.png" crc="4091370676" ref="bitcoin-game-changer-or-fad"/>
     <file name="u303-4.png" crc="120103459" ref="bitcoin-101"/>
-    <file name="imageedit_24_3696117520-crop-u169.jpg" crc="3799173141" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-    </file>
   </folder>
   <file name="index.html" crc="3844666404" seo="true" mt="1569995917005" redirect="true"/>
   <file name="trades.html" crc="4060379773" seo="true" mt="1569995917005" redirect="true"/>
