@@ -18,14 +18,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>About | Ethan Wilk</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4138978310"/>
-  <link rel="stylesheet" type="text/css" href="css/about.css?crc=215144766" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=17606160"/>
+  <link rel="stylesheet" type="text/css" href="css/about.css?crc=4174149266" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/advent-pro:n7:default;courier-prime:n4:default.js" type="text/javascript"></script>
+  <script src="https://webfonts.creativecloud.com/courier-prime:n4:default;advent-pro:n7:default.js" type="text/javascript"></script>
     <!--/*
 
 */
@@ -55,7 +55,33 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
-    <div class="clearfix colelem" id="pu169"><!-- group -->
+    <div class="clearfix colelem" id="pu747"><!-- group -->
+     <div class="grpelem" id="u747"><!-- custom html -->
+      <script>
+      	var lastPrice = 0;
+
+      	function updatePrice(){
+      	  var ws = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@miniTicker');
+
+      	  ws.onmessage = function(msg){
+      	    var jsonObject = JSON.parse(msg.data);
+      	    var newPrice = parseFloat(jsonObject.c);
+      	    var finalPrice = newPrice.toFixed(2);
+      	    if(newPrice > lastPrice){
+      	      document.getElementById("u412-5").style.color = 'green';
+      	      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬆";
+      	    }
+      	    else {
+      	      document.getElementById("u412-5").style.color = 'red';
+      	      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬇";
+      	    }
+      	    lastPrice = newPrice;
+      	  };
+      	}
+
+      	updatePrice();
+      </script>
+     </div>
      <div class="clip_frame grpelem" id="u169"><!-- image -->
       <img class="block" id="u169_img" src="images/imageedit_24_3696117520-crop-u169.jpg?crc=3799173141" alt="" data-heightwidthratio="1.0097087378640777" data-image-width="103" data-image-height="104"/>
      </div>
@@ -66,15 +92,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p>&nbsp;</p>
       <p>I programmed this blog to post my ideas about finance.</p>
      </div>
-    </div>
-    <div class="clearfix colelem" id="u181-13" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-     <p>The first assets I traded in 2014 were stocks, particularly on breakouts and news. However, as my ability to trade diversified, I found a wider interest in forex. The ability to trade near 24 hours a day, and less limitations particularly in cryptocurrency attracted me more than stocks or index funds.</p>
-     <p>&nbsp;</p>
-     <p>This brought me to this blog, where I discuss my ventures in investing and trading, and program bots to share for all who happen to accidentally find their way to this gem.</p>
-     <p>&nbsp;</p>
-     <p>This blog also has a live trade tab built into it in the navigation bar at the top. You can see some of my trades as they happen up there, entry, exit, and all.</p>
-     <p>&nbsp;</p>
-     <p>Thanks for reading. Let's make some money together!</p>
+     <div class="clearfix grpelem" id="u181-13" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>The first assets I traded in 2014 were stocks, particularly on breakouts and news. However, as my ability to trade diversified, I found a wider interest in forex. The ability to trade near 24 hours a day, and less limitations particularly in cryptocurrency attracted me more than stocks or index funds.</p>
+      <p>&nbsp;</p>
+      <p>This brought me to this blog, where I discuss my ventures in investing and trading, and program bots to share for all who happen to accidentally find their way to this gem.</p>
+      <p>&nbsp;</p>
+      <p>This blog also has a live trade tab built into it in the navigation bar at the top. You can see some of my trades as they happen up there, entry, exit, and all.</p>
+      <p>&nbsp;</p>
+      <p>Thanks for reading. Let's make some money together!</p>
+     </div>
     </div>
    </div>
    <div class="verticalspacer" data-offset-top="640" data-content-above-spacer="640" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>

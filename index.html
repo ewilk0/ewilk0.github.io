@@ -18,14 +18,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home | Ethan Wilk</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4138978310"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3825800967" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=17606160"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=384019567" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/advent-pro:n7:default;courier-prime:n4:default.js" type="text/javascript"></script>
+  <script src="https://webfonts.creativecloud.com/courier-prime:n4:default;advent-pro:n7:default.js" type="text/javascript"></script>
     <!--/*
 
 */
@@ -55,40 +55,89 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
-    <div class="clearfix colelem" id="pu541"><!-- group -->
-     <div class="shadow clearfix grpelem" id="u541"><!-- group -->
-      <img class="grpelem" id="u544-4" alt="@roosterxbt" src="images/u544-4.png?crc=171649555" data-image-width="165"/><!-- rasterized frame -->
+    <img class="colelem" id="u725-4" alt="Top Articles" src="images/u725-4.png?crc=4187331410" data-image-width="351"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu747"><!-- group -->
+     <div class="grpelem" id="u747"><!-- custom html -->
+      <script>
+      	var lastPrice = 0;
+
+      	function updatePrice(){
+      	  var ws = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@miniTicker');
+
+      	  ws.onmessage = function(msg){
+      	    var jsonObject = JSON.parse(msg.data);
+      	    var newPrice = parseFloat(jsonObject.c);
+      	    var finalPrice = newPrice.toFixed(2);
+      	    if(newPrice > lastPrice){
+      	      document.getElementById("u412-5").style.color = 'green';
+      	      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬆";
+      	    }
+      	    else {
+      	      document.getElementById("u412-5").style.color = 'red';
+      	      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬇";
+      	    }
+      	    lastPrice = newPrice;
+      	  };
+      	}
+
+      	updatePrice();
+      </script>
      </div>
-     <div class="clearfix grpelem" id="pu518"><!-- column -->
-      <a class="nonblock nontext clip_frame colelem" id="u518" href="https://hackernoon.com/create-a-bitcoin-trading-bot-in-10-minutes-vv14kr3thn" target="_blank"><!-- image --><img class="block" id="u518_img" src="images/systems%20imagination%20(2).jpg?crc=4177185827" alt="" data-heightwidthratio="0.5643564356435643" data-image-width="202" data-image-height="114"/></a>
-      <a class="nonblock nontext clip_frame colelem" id="u332" href="bitcoin-101.html"><!-- image --><img class="block" id="u332_img" src="images/systems%20imagination%20(1).png?crc=372408419" alt="" data-heightwidthratio="0.5643564356435643" data-image-width="202" data-image-height="114"/></a>
+     <a class="nonblock nontext grpelem" id="u634-4" href="predicting-the-price-of-wheat-futures.html" target="_blank"><!-- rasterized frame --><img id="u634-4_img" alt="Modelling and Predicting the Price of Wheat Futures" src="images/u634-4.png?crc=4141073409" data-image-width="275"/></a>
+     <div class="clearfix grpelem" id="u635-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>OCT. 2, 2019</p>
      </div>
+     <div class="clearfix grpelem" id="u636-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>Production cost + scarcity + market competition = the Wheat Difficulty Ribbon!</p>
+     </div>
+     <a class="nonblock nontext clip_frame grpelem" id="u637" href="predicting-the-price-of-wheat-futures.html" target="_blank"><!-- image --><img class="block" id="u637_img" src="images/systems%20imagination%20(3).jpg?crc=76456274" alt="" data-heightwidthratio="0.5643564356435643" data-image-width="202" data-image-height="114"/></a>
+    </div>
+    <img class="colelem" id="u729-4" alt="Features" src="images/u729-4.png?crc=4070781854" data-image-width="351"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu518"><!-- group -->
+     <a class="nonblock nontext clip_frame grpelem" id="u518" href="https://hackernoon.com/create-a-bitcoin-trading-bot-in-10-minutes-vv14kr3thn" target="_blank"><!-- image --><img class="block" id="u518_img" src="images/systems%20imagination%20(2).jpg?crc=4177185827" alt="" data-heightwidthratio="0.5643564356435643" data-image-width="202" data-image-height="114"/></a>
      <div class="clearfix grpelem" id="pu516-4"><!-- column -->
       <div class="clearfix colelem" id="u516-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
        <p>OCT. 2, 2019</p>
       </div>
       <div class="clearfix colelem" id="pu515-4"><!-- group -->
-       <a class="nonblock nontext clearfix grpelem" id="u515-4" href="https://hackernoon.com/create-a-bitcoin-trading-bot-in-10-minutes-vv14kr3thn" target="_blank" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p><span id="u515">Create a Bitcoin Trading Bot in 10 Minutes</span></p></a>
+       <a class="nonblock nontext grpelem" id="u515-4" href="https://hackernoon.com/create-a-bitcoin-trading-bot-in-10-minutes-vv14kr3thn" target="_blank"><!-- rasterized frame --><img id="u515-4_img" alt="Create a Bitcoin Trading Bot in 10 Minutes" src="images/u515-4.png?crc=160183462" data-image-width="253"/></a>
        <div class="clearfix grpelem" id="u517-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
         <p>An article published by the editors at Hackernoon!</p>
        </div>
       </div>
+     </div>
+    </div>
+    <img class="colelem" id="u732-4" alt="Start Here" src="images/u732-4.png?crc=4146922497" data-image-width="351"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu592"><!-- group -->
+     <a class="nonblock nontext clip_frame grpelem" id="u592" href="bitcoin-game-changer-or-fad.html" target="_blank"><!-- image --><img class="block" id="u592_img" src="images/systems%20imagination.jpg?crc=4062849914" alt="" data-heightwidthratio="0.5643564356435643" data-image-width="202" data-image-height="114"/></a>
+     <div class="clearfix grpelem" id="pu590-4"><!-- column -->
+      <div class="clearfix colelem" id="u590-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <p>OCT. 2, 2019</p>
+      </div>
+      <div class="clearfix colelem" id="pu589-4"><!-- group -->
+       <a class="nonblock nontext grpelem" id="u589-4" href="https://hackernoon.com/create-a-bitcoin-trading-bot-in-10-minutes-vv14kr3thn" target="_blank"><!-- rasterized frame --><img id="u589-4_img" alt="Bitcoin: a Game-Changer or a Fad?" src="images/u589-4.png?crc=4226459109" data-image-width="253"/></a>
+       <div class="clearfix grpelem" id="u591-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+        <p>Can Bitcoin really take over finance as we know it?</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu332"><!-- group -->
+     <a class="nonblock nontext clip_frame grpelem" id="u332" href="bitcoin-101.html"><!-- image --><img class="block" id="u332_img" src="images/systems%20imagination%20(1).png?crc=372408419" alt="" data-heightwidthratio="0.5643564356435643" data-image-width="202" data-image-height="114"/></a>
+     <div class="clearfix grpelem" id="pu330-4"><!-- column -->
       <div class="clearfix colelem" id="u330-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
        <p>OCT. 10, 2019</p>
       </div>
       <div class="clearfix colelem" id="pu329-4"><!-- group -->
-       <a class="nonblock nontext clearfix grpelem" id="u329-4" href="bitcoin-101.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p><span id="u329">Bitcoin 101: What is it and why is it important?</span></p></a>
+       <a class="nonblock nontext grpelem" id="u329-4" href="bitcoin-101.html"><!-- rasterized frame --><img id="u329-4_img" alt="Bitcoin 101: What is it and why is it important?" src="images/u329-4.png?crc=468417038" data-image-width="253"/></a>
        <div class="clearfix grpelem" id="u331-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
         <p>Pumps, dumps, and price fluctuations. Welcome to Bitcoin.</p>
        </div>
       </div>
      </div>
-     <div class="shadow clearfix grpelem" id="u550"><!-- group -->
-      <img class="grpelem" id="u551-4" alt="Get the news!" src="images/u551-4.png?crc=4131122490" data-image-width="165"/><!-- rasterized frame -->
-     </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="410" data-content-above-spacer="408" data-content-below-spacer="91" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="878" data-content-above-spacer="878" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="browser_width grpelem" id="u415-bw">
     <div id="u415"><!-- group -->
      <div class="clearfix" id="u415_align_to_page">

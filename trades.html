@@ -18,8 +18,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Trades | Ethan Wilk</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4138978310"/>
-  <link rel="stylesheet" type="text/css" href="css/trades.css?crc=295514340" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=17606160"/>
+  <link rel="stylesheet" type="text/css" href="css/trades.css?crc=94822057" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -55,8 +55,34 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
+    <div class="colelem" id="u747"><!-- custom html -->
+     <script>
+      	var lastPrice = 0;
+
+      	function updatePrice(){
+      	  var ws = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@miniTicker');
+
+      	  ws.onmessage = function(msg){
+      	    var jsonObject = JSON.parse(msg.data);
+      	    var newPrice = parseFloat(jsonObject.c);
+      	    var finalPrice = newPrice.toFixed(2);
+      	    if(newPrice > lastPrice){
+      	      document.getElementById("u412-5").style.color = 'green';
+      	      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬆";
+      	    }
+      	    else {
+      	      document.getElementById("u412-5").style.color = 'red';
+      	      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬇";
+      	    }
+      	    lastPrice = newPrice;
+      	  };
+      	}
+
+      	updatePrice();
+      </script>
+    </div>
    </div>
-   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="135" data-content-below-spacer="91" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="355" data-content-below-spacer="91" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="browser_width grpelem" id="u415-bw">
     <div id="u415"><!-- group -->
      <div class="clearfix" id="u415_align_to_page">

@@ -18,8 +18,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Bitcoin 101</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4138978310"/>
-  <link rel="stylesheet" type="text/css" href="css/bitcoin-101.css?crc=281138061" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=17606160"/>
+  <link rel="stylesheet" type="text/css" href="css/bitcoin-101.css?crc=79624278" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -55,8 +55,36 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
-    <div class="clip_frame colelem" id="u306"><!-- image -->
-     <img class="block" id="u306_img" src="images/systems%20imagination%20(1).png?crc=372408419" alt="" data-heightwidthratio="0.5618279569892473" data-image-width="372" data-image-height="209"/>
+    <div class="clearfix colelem" id="pu747"><!-- group -->
+     <div class="grpelem" id="u747"><!-- custom html -->
+      <script>
+      	var lastPrice = 0;
+
+      	function updatePrice(){
+      	  var ws = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@miniTicker');
+
+      	  ws.onmessage = function(msg){
+      	    var jsonObject = JSON.parse(msg.data);
+      	    var newPrice = parseFloat(jsonObject.c);
+      	    var finalPrice = newPrice.toFixed(2);
+      	    if(newPrice > lastPrice){
+      	      document.getElementById("u412-5").style.color = 'green';
+      	      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬆";
+      	    }
+      	    else {
+      	      document.getElementById("u412-5").style.color = 'red';
+      	      document.getElementById("u412-5").textContent="$" + finalPrice + " ⬇";
+      	    }
+      	    lastPrice = newPrice;
+      	  };
+      	}
+
+      	updatePrice();
+      </script>
+     </div>
+     <div class="clip_frame grpelem" id="u306"><!-- image -->
+      <img class="block" id="u306_img" src="images/systems%20imagination%20(1).png?crc=372408419" alt="" data-heightwidthratio="0.5618279569892473" data-image-width="372" data-image-height="209"/>
+     </div>
     </div>
     <div class="clearfix colelem" id="u304-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
      <p>OCT. 10, 2019</p>
