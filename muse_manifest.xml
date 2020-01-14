@@ -1,20 +1,20 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1578972981503">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1578973201896">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="3981650965" ref="bitcoin-101:bitcoin-game-changer-or-fad:index:trades:about:predicting-the-price-of-wheat-futures"/>
-    <file name="bitcoin-101.css" crc="4086336670" ref="bitcoin-101"/>
-    <file name="bitcoin-game-changer-or-fad.css" crc="3969022022" ref="bitcoin-game-changer-or-fad"/>
-    <file name="index.css" crc="137954428" ref="index"/>
-    <file name="trades.css" crc="4129467976" ref="trades"/>
-    <file name="about.css" crc="4103741354" ref="about"/>
-    <file name="predicting-the-price-of-wheat-futures.css" crc="4162158100" ref="predicting-the-price-of-wheat-futures"/>
+    <file name="master_a-master.css" crc="27820638" ref="bitcoin-101:bitcoin-game-changer-or-fad:index:trades:about:predicting-the-price-of-wheat-futures"/>
+    <file name="bitcoin-101.css" crc="3935868993" ref="bitcoin-101"/>
+    <file name="bitcoin-game-changer-or-fad.css" crc="115811534" ref="bitcoin-game-changer-or-fad"/>
+    <file name="index.css" crc="178516931" ref="index"/>
+    <file name="trades.css" crc="481004017" ref="trades"/>
+    <file name="about.css" crc="4197706561" ref="about"/>
+    <file name="predicting-the-price-of-wheat-futures.css" crc="47892060" ref="predicting-the-price-of-wheat-futures"/>
     <file name="nomq_preview_master_a-master.css" crc="4248302627" ref="index:about:bitcoin-101:trades:bitcoin-game-changer-or-fad:predicting-the-price-of-wheat-futures"/>
-    <file name="nomq_index.css" crc="269277191" ref="index"/>
-    <file name="nomq_about.css" crc="474322744" ref="about"/>
-    <file name="nomq_bitcoin-101.css" crc="4245552713" ref="bitcoin-101"/>
-    <file name="nomq_trades.css" crc="3979878295" ref="trades"/>
-    <file name="nomq_bitcoin-game-changer-or-fad.css" crc="380243415" ref="bitcoin-game-changer-or-fad"/>
-    <file name="nomq_predicting-the-price-of-wheat-futures.css" crc="4196410890" ref="predicting-the-price-of-wheat-futures"/>
+    <file name="nomq_index.css" crc="4120427611" ref="index"/>
+    <file name="nomq_about.css" crc="26067891" ref="about"/>
+    <file name="nomq_bitcoin-101.css" crc="3760238587" ref="bitcoin-101"/>
+    <file name="nomq_trades.css" crc="467473719" ref="trades"/>
+    <file name="nomq_bitcoin-game-changer-or-fad.css" crc="4033602279" ref="bitcoin-game-changer-or-fad"/>
+    <file name="nomq_predicting-the-price-of-wheat-futures.css" crc="54110626" ref="predicting-the-price-of-wheat-futures"/>
   </folder>
   <folder name="fonts">
     <file name="avenir-lt-85-heavy.woff" crc="4255242917"/>
@@ -130,17 +130,17 @@
     <file name="u732-43.png" crc="4146922497" ref="index"/>
     <file name="u589-43.png" crc="4226459109" ref="index"/>
     <file name="u329-43.png" crc="468417038" ref="index"/>
-    <file name="imageedit_24_3696117520-crop-u1693.jpg" crc="3807105397" seo="true" ref="about">
+    <file name="imageedit_24_3696117520-crop-u1693.jpg" crc="69981975" seo="true" ref="about">
       <caption webpage="about" alt=""/>
     </file>
-    <file name="u230-43.png" crc="185330027" ref="bitcoin-game-changer-or-fad"/>
-    <file name="u303-43.png" crc="3861711412" ref="bitcoin-101"/>
-    <file name="u615-43.png" crc="519744647" ref="predicting-the-price-of-wheat-futures"/>
+    <file name="u230-43.png" crc="3828726919" ref="bitcoin-game-changer-or-fad"/>
+    <file name="u303-43.png" crc="301186198" ref="bitcoin-101"/>
+    <file name="u615-43.png" crc="3972912900" ref="predicting-the-price-of-wheat-futures"/>
   </folder>
-  <file name="index.html" crc="3965030811" seo="true" mt="1578972967792" redirect="true"/>
-  <file name="trades.html" crc="468291993" seo="true" mt="1578972967792" redirect="true"/>
-  <file name="about.html" crc="4198902281" seo="true" mt="1578972967792" redirect="true"/>
-  <file name="bitcoin-game-changer-or-fad.html" crc="4025639485" seo="true" mt="1578972967792" redirect="true"/>
-  <file name="bitcoin-101.html" crc="421574291" seo="true" mt="1578972967792" redirect="true"/>
-  <file name="predicting-the-price-of-wheat-futures.html" crc="4212550521" seo="true" mt="1578972967792" redirect="true"/>
+  <file name="index.html" crc="3771948267" seo="true" mt="1578973184751" redirect="true"/>
+  <file name="trades.html" crc="3838493589" seo="true" mt="1578973184751" redirect="true"/>
+  <file name="about.html" crc="3799034263" seo="true" mt="1578973184751" redirect="true"/>
+  <file name="bitcoin-game-changer-or-fad.html" crc="4145183955" seo="true" mt="1578973184751" redirect="true"/>
+  <file name="bitcoin-101.html" crc="4036815587" seo="true" mt="1578973184751" redirect="true"/>
+  <file name="predicting-the-price-of-wheat-futures.html" crc="3967715134" seo="true" mt="1578973184751" redirect="true"/>
 </manifest>
