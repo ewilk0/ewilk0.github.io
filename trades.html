@@ -11,15 +11,20 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "trades.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "trades.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=3850212169"/>
   <title>Trades | Ethan Wilk</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=17606160"/>
-  <link rel="stylesheet" type="text/css" href="css/trades.css?crc=94822057" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3821333228"/>
+  <link rel="stylesheet" type="text/css" href="css/trades.css?crc=479439672" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=4248302627"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_trades.css?crc=3979878295" id="nomq_pagesheet"/>
+  <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -33,29 +38,31 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="ppu409-4"><!-- column -->
-    <div class="clearfix colelem" id="pu409-4"><!-- group -->
-     <div class="clearfix grpelem" id="u409-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>A personal blog about finance, trading, and cryptocurrency.</p>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="731"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="ppu409-4"><!-- column -->
+     <div class="clearfix colelem" id="pu409-4"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="u409-4" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu409-4" data-content-guid="u409-4_content"><!-- content -->
+       <p>A personal blog about finance, trading, and cryptocurrency.</p>
+      </div>
+      <a class="nonblock nontext clearfix grpelem" id="u94-4" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu409-4"><!-- content --><p class="shared_content" data-content-guid="u94-4_0_content"><span id="u94">ETHAN WILK</span></p></a>
+      <div class="clearfix grpelem shared_content" id="u412-7" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu409-4" data-content-guid="u412-7_content"><!-- content -->
+       <p id="u412-2">ONE BITCOIN =</p>
+       <p id="u412-3">&nbsp;</p>
+       <p id="u412-5">$X,XXX</p>
+      </div>
      </div>
-     <a class="nonblock nontext clearfix grpelem" id="u94-4" href="index.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p><span id="u94">ETHAN WILK</span></p></a>
-     <div class="clearfix grpelem" id="u412-7" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p id="u412-2">ONE BITCOIN =</p>
-      <p id="u412-3">&nbsp;</p>
-      <p id="u412-5">$X,XXX</p>
-     </div>
-    </div>
-    <div class="browser_width colelem" id="u99-bw">
-     <div id="u99"><!-- group -->
-      <div class="clearfix" id="u99_align_to_page">
-       <a class="nonblock nontext Button clearfix grpelem" id="buttonu120" href="index.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- container box --><div class="clearfix grpelem" id="u121-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>TRADES</p></div></a>
-       <a class="nonblock nontext Button clearfix grpelem" id="buttonu105" href="index.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- container box --><div class="clearfix grpelem" id="u106-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>HOME</p></div></a>
-       <a class="nonblock nontext Button clearfix grpelem" id="buttonu114" href="about.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedRight"><!-- container box --><div class="clearfix grpelem" id="u115-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>ABOUT</p></div></a>
+     <div class="browser_width colelem shared_content" id="u99-bw" data-content-guid="u99-bw_content">
+      <div id="u99"><!-- group -->
+       <div class="clearfix" id="u99_align_to_page">
+        <a class="nonblock nontext Button clearfix grpelem" id="buttonu120" href="index.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- container box --><div class="clearfix grpelem" id="u121-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>TRADES</p></div></a>
+        <a class="nonblock nontext Button clearfix grpelem" id="buttonu105" href="index.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- container box --><div class="clearfix grpelem" id="u106-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>HOME</p></div></a>
+        <a class="nonblock nontext Button clearfix grpelem" id="buttonu114" href="about.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- container box --><div class="clearfix grpelem" id="u115-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>ABOUT</p></div></a>
+       </div>
       </div>
      </div>
     </div>
-    <div class="colelem" id="u747"><!-- custom html -->
+    <div class="grpelem shared_content" id="u747" data-content-guid="u747_content"><!-- custom html -->
      <script>
       	var lastPrice = 0;
 
@@ -81,16 +88,31 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       	updatePrice();
       </script>
     </div>
-   </div>
-   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="355" data-content-below-spacer="91" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="browser_width grpelem" id="u415-bw">
-    <div id="u415"><!-- group -->
-     <div class="clearfix" id="u415_align_to_page">
-      <a class="nonblock nontext Button clearfix grpelem" id="buttonu456" href="index.html" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u457-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>TRADES</p></div></a>
-      <a class="nonblock nontext Button clearfix grpelem" id="buttonu450" href="index.html" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u451-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>HOME</p></div></a>
-      <a class="nonblock nontext Button clearfix grpelem" id="buttonu462" href="about.html" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u463-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>ABOUT</p></div></a>
+    <div class="verticalspacer shared_content" data-offset-top="0" data-content-above-spacer="182" data-content-below-spacer="91" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="page_2_content"></div>
+    <div class="browser_width grpelem shared_content" id="u415-bw" data-content-guid="u415-bw_content">
+     <div id="u415"><!-- group -->
+      <div class="clearfix" id="u415_align_to_page">
+       <a class="nonblock nontext Button clearfix grpelem" id="buttonu456" href="index.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- container box --><div class="clearfix grpelem" id="u457-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>TRADES</p></div></a>
+       <a class="nonblock nontext Button clearfix grpelem" id="buttonu450" href="index.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- container box --><div class="clearfix grpelem" id="u451-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>HOME</p></div></a>
+       <a class="nonblock nontext Button clearfix grpelem" id="buttonu462" href="about.html" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- container box --><div class="clearfix grpelem" id="u463-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>ABOUT</p></div></a>
+      </div>
      </div>
     </div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_730" data-max-width="730"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pu94-4"><!-- column -->
+     <a class="nonblock nontext clearfix colelem temp_no_id" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u94-4"><!-- content --><span class="placeholder" data-placeholder-for="u94-4_0_content"><!-- placeholder node --></span></a>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu409-4"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u409-4_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u412-7_content"><!-- placeholder node --></span>
+     </div>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u99-bw_content"><!-- placeholder node --></span>
+    </div>
+    <span class="grpelem placeholder" data-placeholder-for="u747_content"><!-- placeholder node --></span>
+    <span class="verticalspacer placeholder" data-placeholder-for="page_2_content"><!-- placeholder node --></span>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u415-bw_content"><!-- placeholder node --></span>
    </div>
   </div>
   <!-- Other scripts -->
@@ -104,7 +126,7 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -112,7 +134,7 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
