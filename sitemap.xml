@@ -17,6 +17,15 @@
     <image:image>
       <image:loc>http://ethanwilk.com/images/systems%20imagination%20(3).jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/dodgeball-crop-u2911.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/dodgeball-crop-u29112.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/dodgeball-crop-u29113.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://ethanwilk.com/trades.html</loc>
@@ -67,6 +76,21 @@
     </image:image>
     <image:image>
       <image:loc>http://ethanwilk.com/images/screen%20shot%202020-01-13%20at%2073416%20pm.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://ethanwilk.com/argo-p-launches.html</loc>
+    <lastmod>2020-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/dodgeball-crop-u2870.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/dodgeball-crop-u28702.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/dodgeball-crop-u28703.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

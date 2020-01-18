@@ -1,21 +1,23 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1579384134202">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1579387806766">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="3860618038" ref="bitcoin-101:bitcoin-game-changer-or-fad:index:trades:about:predicting-the-price-of-wheat-futures"/>
+    <file name="master_a-master.css" crc="3860618038" ref="bitcoin-101:bitcoin-game-changer-or-fad:index:trades:about:predicting-the-price-of-wheat-futures:argo-p-launches"/>
     <file name="bitcoin-101.css" crc="4015609096" ref="bitcoin-101"/>
     <file name="bitcoin-game-changer-or-fad.css" crc="4284525219" ref="bitcoin-game-changer-or-fad"/>
-    <file name="index.css" crc="280963131" ref="index"/>
+    <file name="index.css" crc="487609120" ref="index"/>
     <file name="trades.css" crc="241742531" ref="trades"/>
     <file name="about.css" crc="261104583" ref="about"/>
     <file name="predicting-the-price-of-wheat-futures.css" crc="470624256" ref="predicting-the-price-of-wheat-futures"/>
-    <file name="nomq_preview_master_a-master.css" crc="4248302627" ref="index:about:bitcoin-101:trades:bitcoin-game-changer-or-fad:predicting-the-price-of-wheat-futures"/>
-    <file name="nomq_index.css" crc="4040386860" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="4248302627" ref="index:about:bitcoin-101:trades:bitcoin-game-changer-or-fad:predicting-the-price-of-wheat-futures:argo-p-launches"/>
+    <file name="nomq_index.css" crc="3967546887" ref="index"/>
     <file name="nomq_about.css" crc="332139772" ref="about"/>
     <file name="nomq_bitcoin-101.css" crc="4141408321" ref="bitcoin-101"/>
     <file name="nomq_trades.css" crc="329316558" ref="trades"/>
     <file name="nomq_bitcoin-game-changer-or-fad.css" crc="507582800" ref="bitcoin-game-changer-or-fad"/>
     <file name="nomq_predicting-the-price-of-wheat-futures.css" crc="4111883863" ref="predicting-the-price-of-wheat-futures"/>
     <file name="iefonts_about.css" crc="3824530138" ref="about"/>
+    <file name="argo-p-launches.css" crc="436979276" ref="argo-p-launches"/>
+    <file name="nomq_argo-p-launches.css" crc="397630001" ref="argo-p-launches"/>
   </folder>
   <folder name="fonts">
     <file name="avenir-lt-85-heavy.woff" crc="4255242917"/>
@@ -38,13 +40,13 @@
     <file name="avenir-lt-85-heavy.svg" crc="3844423317"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures"/>
-    <file name="museutils.js" crc="17924269" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures"/>
-    <file name="whatinput.js" crc="86476730" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures"/>
-    <file name="museconfig.js" crc="144853533" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures"/>
-    <file name="jquery.watch.js" crc="4240030481" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures"/>
-    <file name="require.js" crc="3861931657" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures"/>
-    <file name="jquery.museresponsive.js" crc="4267800278" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:argo-p-launches"/>
+    <file name="museutils.js" crc="17924269" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:argo-p-launches"/>
+    <file name="whatinput.js" crc="86476730" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:argo-p-launches"/>
+    <file name="museconfig.js" crc="144853533" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:argo-p-launches"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:argo-p-launches"/>
+    <file name="require.js" crc="3861931657" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:argo-p-launches"/>
+    <file name="jquery.museresponsive.js" crc="4267800278" ref="index:trades:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:argo-p-launches"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3850212169" ref="index:about"/>
@@ -114,7 +116,7 @@
     <file name="u732-42.png" crc="4146922497" ref="index"/>
     <file name="u589-42.png" crc="4226459109" ref="index"/>
     <file name="u329-42.png" crc="468417038" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:trades:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures"/>
+    <file name="blank.gif" crc="4208392903" ref="index:trades:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:argo-p-launches"/>
     <file name="u230-42.png" crc="4091370676" ref="bitcoin-game-changer-or-fad"/>
     <file name="u303-42.png" crc="120103459" ref="bitcoin-101"/>
     <file name="u615-42.png" crc="357512918" ref="predicting-the-price-of-wheat-futures"/>
@@ -128,11 +130,36 @@
     <file name="u230-43.png" crc="520669361" ref="bitcoin-game-changer-or-fad"/>
     <file name="u303-43.png" crc="393741080" ref="bitcoin-101"/>
     <file name="u615-43.png" crc="3827091650" ref="predicting-the-price-of-wheat-futures"/>
+    <file name="dodgeball-crop-u2911.jpg" crc="4290122249" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u2908-4.png" crc="3806260256" ref="index"/>
+    <file name="u2908-42.png" crc="3806260256" ref="index"/>
+    <file name="dodgeball-crop-u29112.jpg" crc="4290122249" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u2908-43.png" crc="3806260256" ref="index"/>
+    <file name="dodgeball-crop-u29113.jpg" crc="4290122249" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dodgeball-crop-u2870.jpg" crc="4062393697" seo="true" ref="argo-p-launches">
+      <caption webpage="argo-p-launches" alt=""/>
+    </file>
+    <file name="u2869-4.png" crc="3880272439" ref="argo-p-launches"/>
+    <file name="dodgeball-crop-u28702.jpg" crc="4062393697" seo="true" ref="argo-p-launches">
+      <caption webpage="argo-p-launches" alt=""/>
+    </file>
+    <file name="u2869-42.png" crc="3880272439" ref="argo-p-launches"/>
+    <file name="dodgeball-crop-u28703.jpg" crc="4014271291" seo="true" ref="argo-p-launches">
+      <caption webpage="argo-p-launches" alt=""/>
+    </file>
+    <file name="u2869-43.png" crc="333135491" ref="argo-p-launches"/>
   </folder>
-  <file name="index.html" crc="30922900" seo="true" mt="1579384056535" redirect="true"/>
+  <file name="index.html" crc="4007900568" seo="true" mt="1579387787833" redirect="true"/>
   <file name="trades.html" crc="289183403" seo="true" mt="1578974110074" redirect="true"/>
   <file name="about.html" crc="4223536729" seo="true" mt="1579383973944" redirect="true"/>
   <file name="bitcoin-game-changer-or-fad.html" crc="467753375" seo="true" mt="1579384067819" redirect="true"/>
   <file name="bitcoin-101.html" crc="3928407932" seo="true" mt="1578974196973" redirect="true"/>
   <file name="predicting-the-price-of-wheat-futures.html" crc="492397716" seo="true" mt="1579384099917" redirect="true"/>
+  <file name="argo-p-launches.html" crc="413297424" seo="true" mt="1579387691992" redirect="true"/>
 </manifest>
