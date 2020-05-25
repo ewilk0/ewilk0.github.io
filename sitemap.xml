@@ -168,4 +168,19 @@
       <image:loc>http://ethanwilk.com/images/screen%20shot%202020-04-20%20at%2030347%20pm.jpg</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>http://ethanwilk.com/projects--ethan-wilk.html</loc>
+    <lastmod>2020-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/noun_flower_2418122.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/noun_lamp_2645611.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ethanwilk.com/images/noun_glasses_1388652.svg</image:loc>
+    </image:image>
+  </url>
 </urlset>
