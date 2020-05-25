@@ -1,10 +1,10 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1590430773884">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ethanwilk.com" resolutions="1x" timestamp="1590431082839">
   <folder name="css">
     <file name="site_global.css" crc="90340379"/>
     <file name="master_a-master.css" crc="3892848745" ref="about:predicting-the-price-of-wheat-futures:quotes--ethan-wilk:index:market-madness--ethan-wilk:bitcoin-101:activism--ethan-wilk:bitcoin-game-changer-or-fad:ideas--ethan-wilk"/>
     <file name="nomq_preview_master_a-master.css" crc="350384547" ref="about:predicting-the-price-of-wheat-futures:quotes--ethan-wilk:index:market-madness--ethan-wilk:bitcoin-101:activism--ethan-wilk:bitcoin-game-changer-or-fad:ideas--ethan-wilk"/>
-    <file name="about.css" crc="4292300192" ref="about"/>
-    <file name="nomq_about.css" crc="4189932079" ref="about"/>
+    <file name="about.css" crc="46952260" ref="about"/>
+    <file name="nomq_about.css" crc="4262688982" ref="about"/>
     <file name="iefonts_about.css" crc="3824530138" ref="about"/>
     <file name="predicting-the-price-of-wheat-futures.css" crc="4180358420" ref="predicting-the-price-of-wheat-futures"/>
     <file name="nomq_predicting-the-price-of-wheat-futures.css" crc="4023361414" ref="predicting-the-price-of-wheat-futures"/>
@@ -49,85 +49,85 @@
     <file name="require.js" crc="3861931657" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:quotes--ethan-wilk:activism--ethan-wilk:ideas--ethan-wilk:market-madness--ethan-wilk"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3850212169" ref="index"/>
+    <file name="favicon.ico" crc="3850212169" ref="index:about"/>
     <file name="noun_flower_2418122.svg" crc="4012032016" seo="true" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:quotes--ethan-wilk:activism--ethan-wilk:ideas--ethan-wilk:market-madness--ethan-wilk">
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
       <caption webpage="ideas--ethan-wilk" alt=""/>
       <caption webpage="ideas--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="activism--ethan-wilk" alt=""/>
-      <caption webpage="activism--ethan-wilk" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="quotes--ethan-wilk" alt=""/>
-      <caption webpage="quotes--ethan-wilk" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
+      <caption webpage="quotes--ethan-wilk" alt=""/>
+      <caption webpage="quotes--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="activism--ethan-wilk" alt=""/>
+      <caption webpage="activism--ethan-wilk" alt=""/>
     </file>
-    <file name="noun_flower_2418122_poster_.png" crc="175936710" ref="index"/>
+    <file name="noun_flower_2418122_poster_.png" crc="175936710" ref="index:about"/>
     <file name="noun_lamp_2645611.svg" crc="4192585709" seo="true" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:quotes--ethan-wilk:activism--ethan-wilk:ideas--ethan-wilk:market-madness--ethan-wilk">
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
       <caption webpage="ideas--ethan-wilk" alt=""/>
       <caption webpage="ideas--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="activism--ethan-wilk" alt=""/>
-      <caption webpage="activism--ethan-wilk" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="quotes--ethan-wilk" alt=""/>
-      <caption webpage="quotes--ethan-wilk" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
+      <caption webpage="quotes--ethan-wilk" alt=""/>
+      <caption webpage="quotes--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="activism--ethan-wilk" alt=""/>
+      <caption webpage="activism--ethan-wilk" alt=""/>
     </file>
-    <file name="noun_lamp_2645611_poster_.png" crc="3964621485" ref="index"/>
+    <file name="noun_lamp_2645611_poster_.png" crc="3964621485" ref="index:about"/>
     <file name="noun_glasses_1388652.svg" crc="36471975" seo="true" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:quotes--ethan-wilk:activism--ethan-wilk:ideas--ethan-wilk:market-madness--ethan-wilk">
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
+      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
       <caption webpage="ideas--ethan-wilk" alt=""/>
       <caption webpage="ideas--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="market-madness--ethan-wilk" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
-      <caption webpage="activism--ethan-wilk" alt=""/>
-      <caption webpage="activism--ethan-wilk" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="quotes--ethan-wilk" alt=""/>
-      <caption webpage="quotes--ethan-wilk" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="bitcoin-101" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
-      <caption webpage="predicting-the-price-of-wheat-futures" alt=""/>
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
+      <caption webpage="quotes--ethan-wilk" alt=""/>
+      <caption webpage="quotes--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="market-madness--ethan-wilk" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="bitcoin-101" alt=""/>
+      <caption webpage="activism--ethan-wilk" alt=""/>
+      <caption webpage="activism--ethan-wilk" alt=""/>
     </file>
-    <file name="noun_glasses_1388652_poster_.png" crc="3802163328" ref="index"/>
+    <file name="noun_glasses_1388652_poster_.png" crc="3802163328" ref="index:about"/>
     <file name="blank.gif" crc="4208392903" ref="index:about:bitcoin-game-changer-or-fad:bitcoin-101:predicting-the-price-of-wheat-futures:quotes--ethan-wilk:activism--ethan-wilk:ideas--ethan-wilk:market-madness--ethan-wilk"/>
     <file name="systems imagination.jpg" crc="4062849914" seo="true" ref="bitcoin-game-changer-or-fad">
       <caption webpage="bitcoin-game-changer-or-fad" alt=""/>
@@ -213,7 +213,7 @@
     <file name="u5245-43.png" crc="514855441" ref="market-madness--ethan-wilk"/>
   </folder>
   <file name="index.html" crc="4182407964" seo="true" mt="1590430018838" redirect="true"/>
-  <file name="about.html" crc="3770163540" seo="true" mt="1590426965616" redirect="true"/>
+  <file name="about.html" crc="31717864" seo="true" mt="1590431075284" redirect="true"/>
   <file name="bitcoin-game-changer-or-fad.html" crc="450329019" seo="true" mt="1590426965616" redirect="true"/>
   <file name="bitcoin-101.html" crc="4006456458" seo="true" mt="1590426965616" redirect="true"/>
   <file name="predicting-the-price-of-wheat-futures.html" crc="3820613833" seo="true" mt="1590426965616" redirect="true"/>
